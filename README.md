@@ -55,3 +55,6 @@ curl --location --request PATCH 'http://localhost:9000/recipes/2' \
 ```bash
 curl --location --request DELETE 'http://localhost:9000/recipes/1'
 ```
+
+---
+&copy; 2024 Andreas Arifin
