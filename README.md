@@ -57,4 +57,4 @@ curl --location --request DELETE 'http://localhost:9000/recipes/1'
 ```
 
 ---
-&copy; 2024 Andreas Arifin (test)
+&copy; 2024 Andreas Arifin
