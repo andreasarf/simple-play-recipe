@@ -1,0 +1,10 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+GET     /recipes                    controllers.v1.recipe.RecipeController.getAll
+GET     /recipes/:id                controllers.v1.recipe.RecipeController.get(id: Int)
+POST    /recipes                    controllers.v1.recipe.RecipeController.create
+PATCH   /recipes/:id                controllers.v1.recipe.RecipeController.update(id: Int)
+DELETE  /recipes/:id                controllers.v1.recipe.RecipeController.delete(id: Int)
